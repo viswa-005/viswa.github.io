@@ -36,7 +36,7 @@
         <header class="py-5 bg-image-full" style="background-image: url('assets/robotics-bg.jpg')">
             <div class="text-center my-5">
               <!-- Replace with your profile photo -->
-              <img class="img-fluid rounded-circle mb-4" src="assets/profile.jpg" alt="Viswa Subramanian" width="150" />
+              <img class="img-fluid rounded-circle mb-4" src="assets/profile.jpeg" alt="Viswa Subramanian" width="150" />
               <h1 class="text-white fs-3 fw-bolder">Viswa Subramanian</h1>
               <p class="text-white-50 mb-0">MS in Robotics & AI | Perception & Autonomy Researcher</p>
               <!-- Add social links -->
@@ -114,12 +114,26 @@
         <div class="container my-5">
             <h2 class="text-center mb-5">Projects</h2>
             <div class="row">
+              <div class="col-md-6 mb-4">
+                <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Image Classification using ConvNext</h5>
+                    <p class="card-text">
+                      Designed transformer inspired convolutional neural network with suitable parameters to classify images 
+                      Reimplemented the whole model from scratch with comparing LayerNorm vs Dynamic Tanh  in ConvNext Model
+                      Minimizing the reconstruction loss and self-attention mechanisms are added to improve overall  performance
+
+                    </p>
+                </div>
+                </div>
+            </div>
             <div class="col-md-6 mb-4">
                 <div class="card h-100">
                 <div class="card-body">
                     <h5 class="card-title">Underwater Waste Classification</h5>
                     <p class="card-text">
-                    Curated datasets & implemented OpenCV for waste detection (mAP: 0.78).
+                      Curated datasets & implemented image processing techniques in OpenCV for underwater waste detection with 
+                      classification by a mAP of 0.78 by evaluating deep learning models 
                     </p>
                 </div>
                 </div>
@@ -137,6 +151,21 @@
                 </div>
                 </div>
             </div>
+            <div class="col-md-6 mb-4">
+              <div class="card h-100">
+              <div class="card-body">
+                  <h5 class="card-title">Projects in Robotic Perception</h5>
+                  <p class="card-text">
+                    Deep learning experimentation - Hyperparameter tuning for models like FCN, RNN, GAN, ViT for better performance
+                    Orientation Tracking - Implemented gradient descent to estimate the 3D pose of body using IMU with 0.6 accuracy
+                    SLAM Problem  - Execute robot localization and occupancy grid mapping using Lidar measurements with some latency 
+                    Species Classification - Used CNN for object detection and classification of  deep sea fish species with 0.65 accuracy
+
+                    
+                  </p>
+              </div>
+              </div>
+          </div>
             </div>
         </div>
         </section>
